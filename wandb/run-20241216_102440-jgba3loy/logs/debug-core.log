@@ -1,0 +1,7 @@
+{"time":"2024-12-16T10:22:17.13160695Z","level":"INFO","msg":"started logging, with flags","port-filename":"/tmp/tmpmn_nocgi/port-765.txt","pid":765,"debug":false,"disable-analytics":false}
+{"time":"2024-12-16T10:22:17.131657843Z","level":"INFO","msg":"FeatureState","shutdownOnParentExitEnabled":false}
+{"time":"2024-12-16T10:22:17.137619333Z","level":"INFO","msg":"Will exit if parent process dies.","ppid":765}
+{"time":"2024-12-16T10:22:17.13775876Z","level":"INFO","msg":"server is running","addr":{"IP":"127.0.0.1","Port":36297,"Zone":""}}
+{"time":"2024-12-16T10:22:17.285780804Z","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"127.0.0.1:36308"}
+{"time":"2024-12-16T10:24:40.009485619Z","level":"INFO","msg":"handleInformInit: received","streamId":"jgba3loy","id":"127.0.0.1:36308"}
+{"time":"2024-12-16T10:24:40.122169478Z","level":"INFO","msg":"handleInformInit: stream started","streamId":"jgba3loy","id":"127.0.0.1:36308"}
