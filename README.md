@@ -95,7 +95,7 @@ Ensure the following software is installed on your machine:
    First, clone this repository to your local machine:
    ```bash
    git clone https://github.com/Andreevromano/HSE_LSML2_FP.git
-   cd sentiment-analysis-lora
+   cd HSE_LSML2_FP
    ```
 2. **Build and Run the Project**  
   Use (`docker-compose`) to build the Docker images and start the backend (API) and frontend services:
