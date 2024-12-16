@@ -75,6 +75,74 @@ project/
   - `logs/`
   - `results/`
   - `results_improved/`
+    
+<img width="1721" alt="W B1" src="https://github.com/user-attachments/assets/c697c91c-ba56-4747-bca2-b2cde05b5639" />
+<img width="1723" alt="W B2" src="https://github.com/user-attachments/assets/e02005b5-4d6b-4444-bd2b-caa828497b7e" />
 
-[W&B1.png](https://github.com/andreevromano/HSE_LSML2_FP/blob/e73868a4f934f389a9ff808dedbfd3adbf205a71/W%26B1.png)
-![alt text]([http://url/to/img.png](https://github.com/andreevromano/HSE_LSML2_FP/blob/e73868a4f934f389a9ff808dedbfd3adbf205a71/W%26B1.png))
+---
+
+## Setup Instructions
+
+### Prerequisites
+
+Ensure the following software is installed on your machine:
+- [**Docker**](https://docs.docker.com/get-docker/)  
+- [**Docker Compose**](https://docs.docker.com/compose/install/)
+
+### Steps to Run the Project
+
+1. **Clone the Repository**  
+   First, clone this repository to your local machine:
+   ```bash
+   git clone https://github.com/your-username/sentiment-analysis-lora.git
+   cd sentiment-analysis-lora
+   ```
+2. **Build and Run the Project**  
+  Use (`docker-compose`) to build the Docker images and start the backend (API) and frontend services:
+   ```bash
+   docker-compose up --build
+   ```
+3. **Access the Application**  
+   - Frontend: Open a browser and navigate to (`http://localhost:8080`)
+   - Backend API: The API is available at (`http://localhost:8000`)
+4. **Test the API**  
+  You can test the API endpoints using tools like curl, Postman, or Python’s (`requests`) library.
+   - Single Prediction Endpoint (`(/predict)`):
+     Send a POST request with a single review:
+   ```bash
+   curl -X POST http://localhost:8000/predict \
+   -H "Content-Type: application/json" \
+   -d '{"text":"This movie is fantastic!"}'
+
+   ```
+   Response:
+   
+   <img width="571" alt="image" src="https://github.com/user-attachments/assets/4c820332-2f24-4b26-beec-a2e46812fe5f" />
+
+   - Batch Prediction Endpoint (`(/predict)`):
+     Send a POST request with multiple reviews:
+   ```bash
+   curl -X POST http://localhost:8000/predict_batch \
+   -H "Content-Type: application/json" \
+   -d '{"texts": ["This movie was amazing!", "Bad actors and movie!"]}'
+
+
+   ```
+   Response:
+
+   <img width="566" alt="image" src="https://github.com/user-attachments/assets/42d95ebb-eea3-40e0-b008-7d44dd775164" />
+
+
+
+---
+
+## Results
+
+### Result in Notebook
+
+<img width="1000" alt="Result in Notebook" src="https://github.com/user-attachments/assets/3a6a02de-a9b0-408a-9ef0-39875fe71906" />
+
+### Result in Frontend
+
+<img width="1720" alt="Result in Frontend" src="https://github.com/user-attachments/assets/c1055e00-e86d-4168-927e-a5bf548d4a1a" />
+
