@@ -133,7 +133,6 @@ Ensure the following software is installed on your machine:
    <img width="566" alt="image" src="https://github.com/user-attachments/assets/42d95ebb-eea3-40e0-b008-7d44dd775164" />
 
 
-
 ---
 
 ## Results
@@ -145,4 +144,34 @@ Ensure the following software is installed on your machine:
 ### Result in Frontend
 
 <img width="1720" alt="Result in Frontend" src="https://github.com/user-attachments/assets/c1055e00-e86d-4168-927e-a5bf548d4a1a" />
+<img width="1720" alt="image" src="https://github.com/user-attachments/assets/e82beb27-be9f-4288-8070-d4bc45af2be2" />
+<img width="1726" alt="image" src="https://github.com/user-attachments/assets/6a083c1b-d09f-4ba4-8b0c-596ffab506dd" />
+
+---
+
+## Conclusion
+
+This **Sentiment Analysis Web Application** successfully combines state-of-the-art machine learning with practical deployment and user interaction capabilities. By leveraging a fine-tuned BERT model enhanced with **LoRA (Low-Rank Adaptation)**, the project achieves **87.4% accuracy** on the IMDB dataset. 
+
+The application includes:
+
+- A **FastAPI backend** for real-time predictions.
+- A **user-friendly frontend** built with HTML, Bootstrap for dynamic interaction.
+- Deployment using **Docker and Docker Compose**, ensuring portability and ease of scaling.
+
+The integration of **experiment tracking** through **Weights & Biases (W&B)** ensures transparency and reproducibility in model training and improvement.
+
+### Key Takeaways:
+1. **Efficient Model Fine-Tuning**: LoRA reduces the computational costs while maintaining high accuracy.
+2. **End-to-End Deployment**: From model training to a functional API and frontend interface.
+3. **User Interaction**: Dynamic UI with support for batch predictions and visual feedback.
+
+This project serves as a foundation for real-world **NLP applications** and can be extended further to include:
+- Neutral sentiment classification.  
+- More advanced analytics and confidence scores.  
+- Integration with cloud providers for production-grade deployment.  
+
+With its modular design, the application can be scaled, extended, and adapted to suit various sentiment analysis use cases in domains such as customer feedback, social media monitoring, and business intelligence.
+
+
 
