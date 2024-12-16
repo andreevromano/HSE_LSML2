@@ -94,7 +94,7 @@ Ensure the following software is installed on your machine:
 1. **Clone the Repository**  
    First, clone this repository to your local machine:
    ```bash
-   git clone https://github.com/Andreevromano/sentiment-analysis-lora.git
+   git clone https://github.com/Andreevromano/HSE_LSML2_FP.git
    cd sentiment-analysis-lora
    ```
 2. **Build and Run the Project**  
